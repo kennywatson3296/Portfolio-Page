@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+} 
+/* eliminates the margins between sections */
+* {margin: 0;
+ }
+header main footer {margin-left: 40px;
+                   margin-right: 40px;}
+/* makes the image a circle to eliminate unneccessary background */
+img {border-radius: 50%;}
+
+/* sets the header title and background */
+header h1 {color: deepskyblue;
+          font-family:"Arial Nova";
+          padding-top: 20px;}
+
+header {background-color: black;}
+
+header p {color: blue;
+         font-family: Arial, Helvetica, sans-serif;
+         padding-bottom: 20px;}
+
+/* sets the background color for the main content, sets the headers and content font, and aligns all content to center text */
+main {background-color: beige;}
+
+h2, h3 { font-family: "Comic Sans MS";}
+
+main p, ul, ol {font-family: "Arial Black";
+       font-size: 15px;}
+.text-center {text-align: center;}
+
+/* sets the horizontal rules to seperate by desired color */
+hr {color: black;
+    background-color: black;
+   height: 4px;}
+.blue-line {color: blue;
+          background-color:blue; }
+
+/* makes the lists display their bullet-points and numbers beside the content */
+ul, ol {display:inline-block;}
+
+ul {text-align: left}
+
+/* sets the footer background and color of content */
+footer {background-color: black;
+       color: dodgerblue;
+       padding-top: 20px;}
+
